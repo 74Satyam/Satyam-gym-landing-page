@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Fitness</title>
+</head>
+<link rel="1project.css" href="css/1project.css">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('img/training-828726_1280.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover;
+        background-attachment: fixed;
+
+        
+       
+    }
+
+    .left{
+        /* border: 2px solid gray; */
+        color: aliceblue;
+        display: inline-block;
+        top: 20px;
+        left: 34px;
+        position: absolute;
+        
+    }
+
+    .left img{
+        width: 80px;
+    }
+
+    .left div{
+        text-align: center;
+    }
+
+    .mid{
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        /* border: 2px solid green; */
+        color: aliceblue;
+    }
+
+    .navbar{
+        display: inline-block;
+    }
+
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a{
+        color: azure;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: rgb(196, 164, 164);
+        
+    }
+
+
+
+    .right{
+        /* border: 2px solid greenyellow; */
+        /* background-color: rgb(1, 12, 19); */
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+    }
+
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding:4px 14px;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor:pointer;
+    }
+
+    .btn :hover {
+        color: rgb(121, 96, 96);
+    }
+
+
+    .container{
+        border: 2px solid rgb(159, 142, 142);
+        margin: 110px 350px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 40px;
+        color: aliceblue;
+        box-shadow: 0px 60px 90px gray,
+                    0px 60px 90px gray;
+    }
+    
+
+
+    .form-group input{
+        text-align: center;
+        display: block;
+        width: 500px;
+        padding: 7px;
+        border: 2px solid black;
+        margin: 3px;
+        border-radius: 10px;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    .container button{
+        display: block;
+        width: 23%;
+        margin: auto; 
+        font-style: italic;
+        font-size: 30px;
+        
+    }
+ </style>
+<body>
+    <header class="header">
+        <!-- for logo -->
+        <div class="left">
+            <img src="img/man-7328236_1280.png" alt="">
+            <div>Satyam Fitness</div>
+        </div>
+
+        <!-- for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">contact us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+            </ul>
+        </div>
+
+        <!-- for box button -->
+        <div class="right">
+            <button class="btn"> <a href="#"></a> Call Us now</button>
+            <button class="btn"> <a href="#"></a> Email Us</button>
+        </div>
+        
+    </header>
+    <div class="container">
+        <h1>Join the best gym of Mumbai</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="gender">
+            </div>
+
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+</html>
